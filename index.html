@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Contact us</title>
+</head>
+
+<body>
+    <header class="header"></header>
+    <main class="main">
+        <section class="contactus">
+            <h1 class="contactus_heading">Contact us</h1>
+            <form id="contactus_form" action="" class="contactus_form">
+                <label class="contact_form_input" for=""><input type="text" placeholder="Votre nom"></label>
+                <label class="contact_form_input" for=""><input type="text" placeholder="Votre prénom"></label>
+                <label class="contact_form_input" for=""><input type="email" placeholder="Votre email"></label>
+                <label class="contact_form_input" for=""><input type="datetime-local" placeholder="Votre disponibilité"></label>
+                <label class="contact_form_input" for=""><textarea placeholder="Ajouter plus de détail..."></textarea></label>
+                <div class="contactus_form_submit">
+                    <button type="submit" class="btn btn--rounded btn--medium">Envoyer</button>
+                </div>
+            </form>
+        </section>
+    </main>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script type="module" src="./js/contact.js"></script>
+</body>
+
+</html>
